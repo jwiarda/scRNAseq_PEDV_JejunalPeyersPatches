@@ -1,0 +1,54 @@
+Analyses were conducted using the R Statistical language (version 4.3.2; R Core Team, 2023) on Ubuntu 22.04.3 LTS, using the packages igraph
+(version 2.0.3; Csardi G, Nepusz T, 2006), Seurat (version 5.1.0; Hao Y et al., 2023), SeuratDisk (version 0.0.0.9021; Hoffman P, 2023),
+SeuratObject (version 5.0.2; Hoffman P et al., 2024), Biobase (version 2.62.0; Huber W et al., 2015), BiocGenerics (version 0.48.1; Huber et
+al., 2015), CellChat (version 2.1.2; Jin S, 2025), report (version 0.5.9; Makowski D et al., 2023), sp (version 2.1.2; Pebesma E, Bivand R,
+2005), patchwork (version 1.2.0; Pedersen T, 2024), ggplot2 (version 3.5.1; Wickham H, 2016), readxl (version 1.4.3; Wickham H, Bryan J,
+2023), dplyr (version 1.1.4; Wickham H et al., 2023) and tidyr (version 1.3.0; Wickham H et al., 2023).
+
+References
+----------
+  - Csardi G, Nepusz T (2006). “The igraph software package for complex network research.” _InterJournal_, *Complex Systems*, 1695.
+<https://igraph.org>. Csárdi G, Nepusz T, Traag V, Horvát S, Zanini F, Noom D, Müller K (2025). _igraph: Network Analysis and Visualization in
+R_. doi:10.5281/zenodo.7682609 <https://doi.org/10.5281/zenodo.7682609>, R package version 2.0.3, <https://CRAN.R-project.org/package=igraph>.
+  - Hao Y, Stuart T, Kowalski MH, Choudhary S, Hoffman P, Hartman A, Srivastava A, Molla G, Madad S, Fernandez-Granda C, Satija R (2023).
+“Dictionary learning for integrative, multimodal and scalable single-cell analysis.” _Nature Biotechnology_. doi:10.1038/s41587-023-01767-y
+<https://doi.org/10.1038/s41587-023-01767-y>, <https://doi.org/10.1038/s41587-023-01767-y>. Hao Y, Hao S, Andersen-Nissen E, III WMM, Zheng S,
+Butler A, Lee MJ, Wilk AJ, Darby C, Zagar M, Hoffman P, Stoeckius M, Papalexi E, Mimitou EP, Jain J, Srivastava A, Stuart T, Fleming LB, Yeung
+B, Rogers AJ, McElrath JM, Blish CA, Gottardo R, Smibert P, Satija R (2021). “Integrated analysis of multimodal single-cell data.” _Cell_.
+doi:10.1016/j.cell.2021.04.048 <https://doi.org/10.1016/j.cell.2021.04.048>, <https://doi.org/10.1016/j.cell.2021.04.048>. Stuart T, Butler A,
+Hoffman P, Hafemeister C, Papalexi E, III WMM, Hao Y, Stoeckius M, Smibert P, Satija R (2019). “Comprehensive Integration of Single-Cell
+Data.” _Cell_, *177*, 1888-1902. doi:10.1016/j.cell.2019.05.031 <https://doi.org/10.1016/j.cell.2019.05.031>,
+<https://doi.org/10.1016/j.cell.2019.05.031>. Butler A, Hoffman P, Smibert P, Papalexi E, Satija R (2018). “Integrating single-cell
+transcriptomic data across different conditions, technologies, and species.” _Nature Biotechnology_, *36*, 411-420. doi:10.1038/nbt.4096
+<https://doi.org/10.1038/nbt.4096>, <https://doi.org/10.1038/nbt.4096>. Satija R, Farrell JA, Gennert D, Schier AF, Regev A (2015). “Spatial
+reconstruction of single-cell gene expression data.” _Nature Biotechnology_, *33*, 495-502. doi:10.1038/nbt.3192
+<https://doi.org/10.1038/nbt.3192>, <https://doi.org/10.1038/nbt.3192>.
+  - Hoffman P (2023). _SeuratDisk: Interfaces for HDF5-Based Single Cell File Formats_. R package version 0.0.0.9021,
+https://github.com/mojaveazure/seurat-disk, <https://mojaveazure.github.io/seurat-disk/>.
+  - Hoffman P, Satija R, Collins D, Hao Y, Hartman A, Molla G, Butler A, Stuart T (2024). _SeuratObject: Data Structures for Single Cell Data_.
+R package version 5.0.2, <https://CRAN.R-project.org/package=SeuratObject>.
+  - Huber W, Carey VJ, Gentleman R, Anders S, Carlson M, Carvalho BS, Bravo HC, Davis S, Gatto L, Girke T, Gottardo R, Hahne F, Hansen KD,
+Irizarry RA, Lawrence M, Love MI, MacDonald J, Obenchain V, Ole's AK, Pag`es H, Reyes A, Shannon P, Smyth GK, Tenenbaum D, Waldron L, Morgan M
+(2015). “Orchestrating high-throughput genomic analysis with Bioconductor.” _Nature Methods_, *12*(2), 115-121.
+<http://www.nature.com/nmeth/journal/v12/n2/full/nmeth.3252.html>.
+  - Huber, W., Carey, J. V, Gentleman, R., Anders, S., Carlson, M., Carvalho, S. B, Bravo, C. H, Davis, S., Gatto, L., Girke, T., Gottardo, R.,
+Hahne, F., Hansen, D. K, Irizarry, A. R, Lawrence, M., Love, I. M, MacDonald, J., Obenchain, V., Ole's, K. A, Pag`es, H., Reyes, A., Shannon,
+P., Smyth, K. G, Tenenbaum, D., Waldron, L., Morgan, M. (2015). “Orchestrating high-throughput genomic analysis with Bioconductor.” _Nature
+Methods_, *12*(2), 115-121. <http://www.nature.com/nmeth/journal/v12/n2/full/nmeth.3252.html>.
+  - Jin S (2025). _CellChat: Inference and analysis of cell-cell communication from single-cell and spatially resolved transcriptomics data_. R
+package version 2.1.2.
+  - Makowski D, Lüdecke D, Patil I, Thériault R, Ben-Shachar M, Wiernik B (2023). “Automated Results Reporting as a Practical Tool to Improve
+Reproducibility and Methodological Best Practices Adoption.” _CRAN_. <https://easystats.github.io/report/>.
+  - Pebesma E, Bivand R (2005). “Classes and methods for spatial data in R.” _R News_, *5*(2), 9-13. <https://CRAN.R-project.org/doc/Rnews/>.
+Bivand R, Pebesma E, Gomez-Rubio V (2013). _Applied spatial data analysis with R, Second edition_. Springer, NY. <https://asdar-book.org/>.
+  - Pedersen T (2024). _patchwork: The Composer of Plots_. R package version 1.2.0, <https://CRAN.R-project.org/package=patchwork>.
+  - R Core Team (2023). _R: A Language and Environment for Statistical Computing_. R Foundation for Statistical Computing, Vienna, Austria.
+<https://www.R-project.org/>.
+  - Wickham H (2016). _ggplot2: Elegant Graphics for Data Analysis_. Springer-Verlag New York. ISBN 978-3-319-24277-4,
+<https://ggplot2.tidyverse.org>.
+  - Wickham H, Bryan J (2023). _readxl: Read Excel Files_. R package version 1.4.3, https://github.com/tidyverse/readxl,
+<https://readxl.tidyverse.org>.
+  - Wickham H, François R, Henry L, Müller K, Vaughan D (2023). _dplyr: A Grammar of Data Manipulation_. R package version 1.1.4,
+https://github.com/tidyverse/dplyr, <https://dplyr.tidyverse.org>.
+  - Wickham H, Vaughan D, Girlich M (2023). _tidyr: Tidy Messy Data_. R package version 1.3.0, https://github.com/tidyverse/tidyr,
+<https://tidyr.tidyverse.org>.

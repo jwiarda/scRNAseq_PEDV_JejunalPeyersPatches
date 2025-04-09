@@ -1,0 +1,48 @@
+Analyses were conducted using the R Statistical language (version 4.3.2; R Core Team, 2023) on Ubuntu 22.04.3 LTS, using the packages glmGamPoi (version 1.14.3; Ahlmann-Eltze
+C, Huber W, 2020), future (version 1.34.0; Bengtsson H, 2021), Rcpp (version 1.0.13; Eddelbuettel D et al., 2024), Seurat (version 5.1.0; Hao Y et al., 2023), SeuratDisk
+(version 0.0.0.9021; Hoffman P, 2023), SeuratObject (version 5.0.2; Hoffman P et al., 2024), harmony (version 1.2.3; Korsunsky I et al., 2024), report (version 0.5.9;
+Makowski D et al., 2023), writexl (version 1.5.0; Ooms J, 2024), sp (version 2.1.2; Pebesma E, Bivand R, 2005), ggplot2 (version 3.5.1; Wickham H, 2016), readxl (version
+1.4.3; Wickham H, Bryan J, 2023), dplyr (version 1.1.4; Wickham H et al., 2023) and scales (version 1.3.0; Wickham H et al., 2023).
+
+References
+----------
+  - Ahlmann-Eltze C, Huber W (2020). “glmGamPoi: Fitting Gamma-Poisson Generalized Linear Models on Single Cell Count Data.” _Bioinformatics_.
+doi:10.1093/bioinformatics/btaa1009 <https://doi.org/10.1093/bioinformatics/btaa1009>, <https://doi.org/10.1093/bioinformatics/btaa1009>.
+  - Bengtsson H (2021). “A Unifying Framework for Parallel and Distributed Processing in R using Futures.” _The R Journal_, *13*(2), 208-227. doi:10.32614/RJ-2021-048
+<https://doi.org/10.32614/RJ-2021-048>, <https://doi.org/10.32614/RJ-2021-048>.
+  - Eddelbuettel D, Francois R, Allaire J, Ushey K, Kou Q, Russell N, Ucar I, Bates D, Chambers J (2024). _Rcpp: Seamless R and C++ Integration_. R package version 1.0.13,
+https://dirk.eddelbuettel.com/code/rcpp.html, https://github.com/RcppCore/Rcpp, <https://www.rcpp.org>. Eddelbuettel D, François R (2011). “Rcpp: Seamless R and C++
+Integration.” _Journal of Statistical Software_, *40*(8), 1-18. doi:10.18637/jss.v040.i08 <https://doi.org/10.18637/jss.v040.i08>. Eddelbuettel D (2013). _Seamless R and C++
+Integration with Rcpp_. Springer, New York. doi:10.1007/978-1-4614-6868-4 <https://doi.org/10.1007/978-1-4614-6868-4>, ISBN 978-1-4614-6867-7. Eddelbuettel D, Balamuta J
+(2018). “Extending R with C++: A Brief Introduction to Rcpp.” _The American Statistician_, *72*(1), 28-36. doi:10.1080/00031305.2017.1375990
+<https://doi.org/10.1080/00031305.2017.1375990>.
+  - Hao Y, Stuart T, Kowalski MH, Choudhary S, Hoffman P, Hartman A, Srivastava A, Molla G, Madad S, Fernandez-Granda C, Satija R (2023). “Dictionary learning for integrative,
+multimodal and scalable single-cell analysis.” _Nature Biotechnology_. doi:10.1038/s41587-023-01767-y <https://doi.org/10.1038/s41587-023-01767-y>,
+<https://doi.org/10.1038/s41587-023-01767-y>. Hao Y, Hao S, Andersen-Nissen E, III WMM, Zheng S, Butler A, Lee MJ, Wilk AJ, Darby C, Zagar M, Hoffman P, Stoeckius M, Papalexi
+E, Mimitou EP, Jain J, Srivastava A, Stuart T, Fleming LB, Yeung B, Rogers AJ, McElrath JM, Blish CA, Gottardo R, Smibert P, Satija R (2021). “Integrated analysis of
+multimodal single-cell data.” _Cell_. doi:10.1016/j.cell.2021.04.048 <https://doi.org/10.1016/j.cell.2021.04.048>, <https://doi.org/10.1016/j.cell.2021.04.048>. Stuart T,
+Butler A, Hoffman P, Hafemeister C, Papalexi E, III WMM, Hao Y, Stoeckius M, Smibert P, Satija R (2019). “Comprehensive Integration of Single-Cell Data.” _Cell_, *177*,
+1888-1902. doi:10.1016/j.cell.2019.05.031 <https://doi.org/10.1016/j.cell.2019.05.031>, <https://doi.org/10.1016/j.cell.2019.05.031>. Butler A, Hoffman P, Smibert P, Papalexi
+E, Satija R (2018). “Integrating single-cell transcriptomic data across different conditions, technologies, and species.” _Nature Biotechnology_, *36*, 411-420.
+doi:10.1038/nbt.4096 <https://doi.org/10.1038/nbt.4096>, <https://doi.org/10.1038/nbt.4096>. Satija R, Farrell JA, Gennert D, Schier AF, Regev A (2015). “Spatial
+reconstruction of single-cell gene expression data.” _Nature Biotechnology_, *33*, 495-502. doi:10.1038/nbt.3192 <https://doi.org/10.1038/nbt.3192>,
+<https://doi.org/10.1038/nbt.3192>.
+  - Hoffman P (2023). _SeuratDisk: Interfaces for HDF5-Based Single Cell File Formats_. R package version 0.0.0.9021, https://github.com/mojaveazure/seurat-disk,
+<https://mojaveazure.github.io/seurat-disk/>.
+  - Hoffman P, Satija R, Collins D, Hao Y, Hartman A, Molla G, Butler A, Stuart T (2024). _SeuratObject: Data Structures for Single Cell Data_. R package version 5.0.2,
+<https://CRAN.R-project.org/package=SeuratObject>.
+  - Korsunsky I, Hemberg M, Patikas N, Yao H, Millard N, Fan J, Slowikowski K, Raychaudhuri S (2024). _harmony: Fast, Sensitive, and Accurate Integration of Single Cell Data_.
+R package version 1.2.3, <https://github.com/immunogenomics/harmony>.
+  - Makowski D, Lüdecke D, Patil I, Thériault R, Ben-Shachar M, Wiernik B (2023). “Automated Results Reporting as a Practical Tool to Improve Reproducibility and Methodological
+Best Practices Adoption.” _CRAN_. <https://easystats.github.io/report/>.
+  - Ooms J (2024). _writexl: Export Data Frames to Excel 'xlsx' Format_. R package version 1.5.0https://docs.ropensci.org/writexl/ (website) https://github.com/ropensci/writexl
+(devel) https://libxlsxwriter.github.io (upstream),
+<https://docs.ropensci.org/writexl/%20(website)https://github.com/ropensci/writexl%20(devel)https://libxlsxwriter.github.io%20(upstream)>.
+  - Pebesma E, Bivand R (2005). “Classes and methods for spatial data in R.” _R News_, *5*(2), 9-13. <https://CRAN.R-project.org/doc/Rnews/>. Bivand R, Pebesma E, Gomez-Rubio V
+(2013). _Applied spatial data analysis with R, Second edition_. Springer, NY. <https://asdar-book.org/>.
+  - R Core Team (2023). _R: A Language and Environment for Statistical Computing_. R Foundation for Statistical Computing, Vienna, Austria. <https://www.R-project.org/>.
+  - Wickham H (2016). _ggplot2: Elegant Graphics for Data Analysis_. Springer-Verlag New York. ISBN 978-3-319-24277-4, <https://ggplot2.tidyverse.org>.
+  - Wickham H, Bryan J (2023). _readxl: Read Excel Files_. R package version 1.4.3, https://github.com/tidyverse/readxl, <https://readxl.tidyverse.org>.
+  - Wickham H, François R, Henry L, Müller K, Vaughan D (2023). _dplyr: A Grammar of Data Manipulation_. R package version 1.1.4, https://github.com/tidyverse/dplyr,
+<https://dplyr.tidyverse.org>.
+  - Wickham H, Pedersen T, Seidel D (2023). _scales: Scale Functions for Visualization_. R package version 1.3.0, https://github.com/r-lib/scales, <https://scales.r-lib.org>.

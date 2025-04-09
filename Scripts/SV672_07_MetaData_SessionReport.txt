@@ -1,0 +1,47 @@
+Analyses were conducted using the R Statistical language (version 4.3.2; R Core Team, 2023) on Ubuntu
+22.04.3 LTS, using the packages Seurat (version 5.1.0; Hao Y et al., 2023), SeuratDisk (version
+0.0.0.9021; Hoffman P, 2023), SeuratObject (version 5.0.2; Hoffman P et al., 2024), report (version
+0.5.9; Makowski D et al., 2023), writexl (version 1.5.0; Ooms J, 2024), sp (version 2.1.2; Pebesma E,
+Bivand R, 2005), readxl (version 1.4.3; Wickham H, Bryan J, 2023) and dplyr (version 1.1.4; Wickham H et
+al., 2023).
+
+References
+----------
+  - Hao Y, Stuart T, Kowalski MH, Choudhary S, Hoffman P, Hartman A, Srivastava A, Molla G, Madad S,
+Fernandez-Granda C, Satija R (2023). “Dictionary learning for integrative, multimodal and scalable
+single-cell analysis.” _Nature Biotechnology_. doi:10.1038/s41587-023-01767-y
+<https://doi.org/10.1038/s41587-023-01767-y>, <https://doi.org/10.1038/s41587-023-01767-y>. Hao Y, Hao S,
+Andersen-Nissen E, III WMM, Zheng S, Butler A, Lee MJ, Wilk AJ, Darby C, Zagar M, Hoffman P, Stoeckius M,
+Papalexi E, Mimitou EP, Jain J, Srivastava A, Stuart T, Fleming LB, Yeung B, Rogers AJ, McElrath JM,
+Blish CA, Gottardo R, Smibert P, Satija R (2021). “Integrated analysis of multimodal single-cell data.”
+_Cell_. doi:10.1016/j.cell.2021.04.048 <https://doi.org/10.1016/j.cell.2021.04.048>,
+<https://doi.org/10.1016/j.cell.2021.04.048>. Stuart T, Butler A, Hoffman P, Hafemeister C, Papalexi E,
+III WMM, Hao Y, Stoeckius M, Smibert P, Satija R (2019). “Comprehensive Integration of Single-Cell Data.”
+_Cell_, *177*, 1888-1902. doi:10.1016/j.cell.2019.05.031 <https://doi.org/10.1016/j.cell.2019.05.031>,
+<https://doi.org/10.1016/j.cell.2019.05.031>. Butler A, Hoffman P, Smibert P, Papalexi E, Satija R
+(2018). “Integrating single-cell transcriptomic data across different conditions, technologies, and
+species.” _Nature Biotechnology_, *36*, 411-420. doi:10.1038/nbt.4096 <https://doi.org/10.1038/nbt.4096>,
+<https://doi.org/10.1038/nbt.4096>. Satija R, Farrell JA, Gennert D, Schier AF, Regev A (2015). “Spatial
+reconstruction of single-cell gene expression data.” _Nature Biotechnology_, *33*, 495-502.
+doi:10.1038/nbt.3192 <https://doi.org/10.1038/nbt.3192>, <https://doi.org/10.1038/nbt.3192>.
+  - Hoffman P (2023). _SeuratDisk: Interfaces for HDF5-Based Single Cell File Formats_. R package version
+0.0.0.9021, https://github.com/mojaveazure/seurat-disk, <https://mojaveazure.github.io/seurat-disk/>.
+  - Hoffman P, Satija R, Collins D, Hao Y, Hartman A, Molla G, Butler A, Stuart T (2024). _SeuratObject:
+Data Structures for Single Cell Data_. R package version 5.0.2,
+<https://CRAN.R-project.org/package=SeuratObject>.
+  - Makowski D, Lüdecke D, Patil I, Thériault R, Ben-Shachar M, Wiernik B (2023). “Automated Results
+Reporting as a Practical Tool to Improve Reproducibility and Methodological Best Practices Adoption.”
+_CRAN_. <https://easystats.github.io/report/>.
+  - Ooms J (2024). _writexl: Export Data Frames to Excel 'xlsx' Format_. R package version
+1.5.0https://docs.ropensci.org/writexl/ (website) https://github.com/ropensci/writexl (devel)
+https://libxlsxwriter.github.io (upstream),
+<https://docs.ropensci.org/writexl/%20(website)https://github.com/ropensci/writexl%20(devel)https://libxlsxwriter.github.io%20(upstream)>.
+  - Pebesma E, Bivand R (2005). “Classes and methods for spatial data in R.” _R News_, *5*(2), 9-13.
+<https://CRAN.R-project.org/doc/Rnews/>. Bivand R, Pebesma E, Gomez-Rubio V (2013). _Applied spatial data
+analysis with R, Second edition_. Springer, NY. <https://asdar-book.org/>.
+  - R Core Team (2023). _R: A Language and Environment for Statistical Computing_. R Foundation for
+Statistical Computing, Vienna, Austria. <https://www.R-project.org/>.
+  - Wickham H, Bryan J (2023). _readxl: Read Excel Files_. R package version 1.4.3,
+https://github.com/tidyverse/readxl, <https://readxl.tidyverse.org>.
+  - Wickham H, François R, Henry L, Müller K, Vaughan D (2023). _dplyr: A Grammar of Data Manipulation_. R
+package version 1.1.4, https://github.com/tidyverse/dplyr, <https://dplyr.tidyverse.org>.

@@ -1,0 +1,73 @@
+Analyses were conducted using the R Statistical language (version 4.3.2; R Core Team, 2023) on Ubuntu 22.04.3 LTS, using the packages
+viridisLite (version 0.4.2; Garnier et al., 2023), viridis (version 0.6.4; Garnier et al., 2023), lubridate (version 1.9.3; Grolemund G,
+Wickham H, 2011), Seurat (version 5.1.0; Hao Y et al., 2023), SeuratDisk (version 0.0.0.9021; Hoffman P, 2023), SeuratObject (version 5.0.2;
+Hoffman P et al., 2024), report (version 0.5.9; Makowski D et al., 2023), tibble (version 3.2.1; Müller K, Wickham H, 2023), sp (version
+2.1.2; Pebesma E, Bivand R, 2005), limma (version 3.58.1; Ritchie ME et al., 2015), edgeR (version 4.0.16; Robinson MD et al., 2010), ggplot2
+(version 3.5.1; Wickham H, 2016), forcats (version 1.0.0; Wickham H, 2023), stringr (version 1.5.1; Wickham H, 2023), tidyverse (version
+2.0.0; Wickham H et al., 2019), dplyr (version 1.1.4; Wickham H et al., 2023), purrr (version 1.0.2; Wickham H, Henry L, 2023), readr
+(version 2.1.4; Wickham H et al., 2023), scales (version 1.3.0; Wickham H et al., 2023) and tidyr (version 1.3.0; Wickham H et al., 2023).
+
+References
+----------
+  - Garnier, Simon, Ross, Noam, Rudis, Robert, Camargo, Pedro A, Sciaini, Marco, Scherer, Cédric (2023). _viridis(Lite) - Colorblind-Friendly
+Color Maps for R_. doi:10.5281/zenodo.4678327 <https://doi.org/10.5281/zenodo.4678327>, viridisLite package version 0.4.2,
+<https://sjmgarnier.github.io/viridis/>.
+  - Garnier, Simon, Ross, Noam, Rudis, Robert, Camargo, Pedro A, Sciaini, Marco, Scherer, Cédric (2023). _viridis(Lite) - Colorblind-Friendly
+Color Maps for R_. doi:10.5281/zenodo.4679423 <https://doi.org/10.5281/zenodo.4679423>, viridis package version 0.6.4,
+<https://sjmgarnier.github.io/viridis/>.
+  - Grolemund G, Wickham H (2011). “Dates and Times Made Easy with lubridate.” _Journal of Statistical Software_, *40*(3), 1-25.
+<https://www.jstatsoft.org/v40/i03/>.
+  - Hao Y, Stuart T, Kowalski MH, Choudhary S, Hoffman P, Hartman A, Srivastava A, Molla G, Madad S, Fernandez-Granda C, Satija R (2023).
+“Dictionary learning for integrative, multimodal and scalable single-cell analysis.” _Nature Biotechnology_. doi:10.1038/s41587-023-01767-y
+<https://doi.org/10.1038/s41587-023-01767-y>, <https://doi.org/10.1038/s41587-023-01767-y>. Hao Y, Hao S, Andersen-Nissen E, III WMM, Zheng
+S, Butler A, Lee MJ, Wilk AJ, Darby C, Zagar M, Hoffman P, Stoeckius M, Papalexi E, Mimitou EP, Jain J, Srivastava A, Stuart T, Fleming LB,
+Yeung B, Rogers AJ, McElrath JM, Blish CA, Gottardo R, Smibert P, Satija R (2021). “Integrated analysis of multimodal single-cell data.”
+_Cell_. doi:10.1016/j.cell.2021.04.048 <https://doi.org/10.1016/j.cell.2021.04.048>, <https://doi.org/10.1016/j.cell.2021.04.048>. Stuart T,
+Butler A, Hoffman P, Hafemeister C, Papalexi E, III WMM, Hao Y, Stoeckius M, Smibert P, Satija R (2019). “Comprehensive Integration of
+Single-Cell Data.” _Cell_, *177*, 1888-1902. doi:10.1016/j.cell.2019.05.031 <https://doi.org/10.1016/j.cell.2019.05.031>,
+<https://doi.org/10.1016/j.cell.2019.05.031>. Butler A, Hoffman P, Smibert P, Papalexi E, Satija R (2018). “Integrating single-cell
+transcriptomic data across different conditions, technologies, and species.” _Nature Biotechnology_, *36*, 411-420. doi:10.1038/nbt.4096
+<https://doi.org/10.1038/nbt.4096>, <https://doi.org/10.1038/nbt.4096>. Satija R, Farrell JA, Gennert D, Schier AF, Regev A (2015). “Spatial
+reconstruction of single-cell gene expression data.” _Nature Biotechnology_, *33*, 495-502. doi:10.1038/nbt.3192
+<https://doi.org/10.1038/nbt.3192>, <https://doi.org/10.1038/nbt.3192>.
+  - Hoffman P (2023). _SeuratDisk: Interfaces for HDF5-Based Single Cell File Formats_. R package version 0.0.0.9021,
+https://github.com/mojaveazure/seurat-disk, <https://mojaveazure.github.io/seurat-disk/>.
+  - Hoffman P, Satija R, Collins D, Hao Y, Hartman A, Molla G, Butler A, Stuart T (2024). _SeuratObject: Data Structures for Single Cell Data_.
+R package version 5.0.2, <https://CRAN.R-project.org/package=SeuratObject>.
+  - Makowski D, Lüdecke D, Patil I, Thériault R, Ben-Shachar M, Wiernik B (2023). “Automated Results Reporting as a Practical Tool to Improve
+Reproducibility and Methodological Best Practices Adoption.” _CRAN_. <https://easystats.github.io/report/>.
+  - Müller K, Wickham H (2023). _tibble: Simple Data Frames_. R package version 3.2.1, https://github.com/tidyverse/tibble,
+<https://tibble.tidyverse.org/>.
+  - Pebesma E, Bivand R (2005). “Classes and methods for spatial data in R.” _R News_, *5*(2), 9-13. <https://CRAN.R-project.org/doc/Rnews/>.
+Bivand R, Pebesma E, Gomez-Rubio V (2013). _Applied spatial data analysis with R, Second edition_. Springer, NY. <https://asdar-book.org/>.
+  - R Core Team (2023). _R: A Language and Environment for Statistical Computing_. R Foundation for Statistical Computing, Vienna, Austria.
+<https://www.R-project.org/>.
+  - Ritchie ME, Phipson B, Wu D, Hu Y, Law CW, Shi W, Smyth GK (2015). “limma powers differential expression analyses for RNA-sequencing and
+microarray studies.” _Nucleic Acids Research_, *43*(7), e47. doi:10.1093/nar/gkv007 <https://doi.org/10.1093/nar/gkv007>.
+  - Robinson MD, McCarthy DJ, Smyth GK (2010). “edgeR: a Bioconductor package for differential expression analysis of digital gene expression
+data.” _Bioinformatics_, *26*(1), 139-140. doi:10.1093/bioinformatics/btp616 <https://doi.org/10.1093/bioinformatics/btp616>. McCarthy DJ,
+Chen Y, Smyth GK (2012). “Differential expression analysis of multifactor RNA-Seq experiments with respect to biological variation.” _Nucleic
+Acids Research_, *40*(10), 4288-4297. doi:10.1093/nar/gks042 <https://doi.org/10.1093/nar/gks042>. Chen Y, Lun ATL, Smyth GK (2016). “From
+reads to genes to pathways: differential expression analysis of RNA-Seq experiments using Rsubread and the edgeR quasi-likelihood pipeline.”
+_F1000Research_, *5*, 1438. doi:10.12688/f1000research.8987.2 <https://doi.org/10.12688/f1000research.8987.2>. Chen Y, Chen L, Lun ATL,
+Baldoni P, Smyth GK (2024). “edgeR 4.0: powerful differential analysis of sequencing data with expanded functionality and improved support
+for small counts and larger datasets.” _bioRxiv_. doi:10.1101/2024.01.21.576131 <https://doi.org/10.1101/2024.01.21.576131>.
+  - Wickham H (2016). _ggplot2: Elegant Graphics for Data Analysis_. Springer-Verlag New York. ISBN 978-3-319-24277-4,
+<https://ggplot2.tidyverse.org>.
+  - Wickham H (2023). _forcats: Tools for Working with Categorical Variables (Factors)_. R package version 1.0.0,
+https://github.com/tidyverse/forcats, <https://forcats.tidyverse.org/>.
+  - Wickham H (2023). _stringr: Simple, Consistent Wrappers for Common String Operations_. R package version 1.5.1,
+https://github.com/tidyverse/stringr, <https://stringr.tidyverse.org>.
+  - Wickham H, Averick M, Bryan J, Chang W, McGowan LD, François R, Grolemund G, Hayes A, Henry L, Hester J, Kuhn M, Pedersen TL, Miller E,
+Bache SM, Müller K, Ooms J, Robinson D, Seidel DP, Spinu V, Takahashi K, Vaughan D, Wilke C, Woo K, Yutani H (2019). “Welcome to the
+tidyverse.” _Journal of Open Source Software_, *4*(43), 1686. doi:10.21105/joss.01686 <https://doi.org/10.21105/joss.01686>.
+  - Wickham H, François R, Henry L, Müller K, Vaughan D (2023). _dplyr: A Grammar of Data Manipulation_. R package version 1.1.4,
+https://github.com/tidyverse/dplyr, <https://dplyr.tidyverse.org>.
+  - Wickham H, Henry L (2023). _purrr: Functional Programming Tools_. R package version 1.0.2, https://github.com/tidyverse/purrr,
+<https://purrr.tidyverse.org/>.
+  - Wickham H, Hester J, Bryan J (2023). _readr: Read Rectangular Text Data_. R package version 2.1.4, https://github.com/tidyverse/readr,
+<https://readr.tidyverse.org>.
+  - Wickham H, Pedersen T, Seidel D (2023). _scales: Scale Functions for Visualization_. R package version 1.3.0,
+https://github.com/r-lib/scales, <https://scales.r-lib.org>.
+  - Wickham H, Vaughan D, Girlich M (2023). _tidyr: Tidy Messy Data_. R package version 1.3.0, https://github.com/tidyverse/tidyr,
+<https://tidyr.tidyverse.org>.
