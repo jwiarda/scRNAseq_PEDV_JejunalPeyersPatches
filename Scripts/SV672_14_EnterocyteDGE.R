@@ -7,6 +7,7 @@ library(writexl)
 library(report)
 library(presto) # do DGE analysis way fast!
 library(eulerr)
+library(tibble)
 
 # Load Seurat object ----
 seu <- LoadH5Seurat('/project/nadc_prrsv/Wiarda/SV672_scRNAseq_PEDVJejPP/Trajectory/trajectorySubset_PolarizedEnterocytes.h5seurat')
